@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="OpenSlavaApplication.SpeakerProfile" 
+		Title="{Binding name}">
+	<ContentPage>
+		<StackLayout Padding="10">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"></ColumnDefinition>
+					<ColumnDefinition Width="*"></ColumnDefinition>
+				</Grid.ColumnDefinitions>
+				<StackLayout Grid.Column="0">
+					<Label x:Name="Title" Text="{Binding name}" FontAttributes="Bold" LineBreakMode="WordWrap" />
+					<Label x:Name="Company" Text="{Binding company}" LineBreakMode="WordWrap" />
+				</StackLayout>
+				<Image Grid.Column="1" Source="{Binding picture}" Aspect="AspectFit" HorizontalOptions="End" />
+			</Grid>
+			<Label x:Name="Bio" Text="{Binding bio}" LineBreakMode="WordWrap" />
+		</StackLayout>
+	</ContentPage>
+	<ContentPage>
+		<StackLayout Padding="10">
+			<Label x:Name="SessionTitle" Text="{Binding session_title}" FontAttributes="Bold" LineBreakMode="WordWrap" />
+			<Label x:Name="SessionText" Text="{Binding session_text}" LineBreakMode="WordWrap" />
+		</StackLayout>
+	</ContentPage>
+</CarouselPage>

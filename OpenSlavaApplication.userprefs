@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{DD1D498C-20C6-4BEE-8FE7-A8F09184A999}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OpenSlavaApplication/ViewModels/SpeakersViewModel.cs">
+    <Files>
+      <File FileName="OpenSlavaApplication/Models/Speakers.cs" Line="25" Column="1" />
+      <File FileName="OpenSlavaApplication/ViewModels/SpeakersViewModel.cs" Line="15" Column="52" />
+      <File FileName="OpenSlavaApplication/Views/AllSpeakers.xaml.cs" Line="33" Column="39" />
+      <File FileName="OpenSlavaApplication/App.xaml.cs" Line="10" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.OpenSlavaApplication.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.OpenSlavaApplication.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.93605675-992B-4BC1-8C72-4F66706C3CD5" />
+</Properties>
